@@ -1,0 +1,17 @@
+the given ip is "192.168.204.87" and the given mask is "26"
+
+convert the ip to binary, for example "192.168.204.87" to "1100 0000.1010 1000.1100 1010.0101 0111"
+
+mask repeat the number 1 for 26 times and repeat the number 0 for 6 times.
+(1111 1111.1111 1111.1111 1111.1100 0000)
+
+convert the mask to ip mask "255.255.255.192"
+
+subnet is "64"
+to get the min host, just add 1 to subnet. "64+1= 65".
+the broadcast is 127
+to get the max host, just minus 1 to the max host. "127-1=126".
+
+
+binary = 1100 0000.1010 1000.1100 1010.0101 0111
+mask = 1111 1111.1111 1111.1111 1111.1100 0000
